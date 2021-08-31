@@ -1,0 +1,54 @@
+
+.welcome-banner {
+    height: 30% !important;
+    background-size: 102% !important;
+    background-position: center !important;
+    padding: 0 !important;
+    background-image: url(https://images7.alphacoders.com/557/557061.jpg) !important;
+    overflow: hidden;
+}
+
+.banner-message {
+    height: 100% !important;
+    width: 100%;
+    padding: 50px;
+    background-color: rgb(46, 46, 46);
+    background: linear-gradient(170deg, rgb(49, 49, 4) 0%,  rgba(0,0,0,0.7) 50%, rgba(0,0,0,0) 100%) !important;
+    height: 300px;
+    color: white;
+}
+
+.menu-links a {
+    color: black !important;
+}
+
+.padded-menu {
+    margin-top: 10px !important;
+}
+
+body {
+    background-color:ghostwhite;
+}
+
+.membersList{
+    padding-left: 2.5em !important;
+}
+
+.listIcon {
+    width: 2.5em;
+    float: left;
+    height: 100% !important;
+}
+
+.ratingClass {
+    float: left;
+    vertical-align: middle;
+}
+
+.listItem {
+    margin-bottom: 2%;
+}
+
+.ratingHome {
+    margin-top: 2em;
+}
