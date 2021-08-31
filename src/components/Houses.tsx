@@ -166,7 +166,7 @@ export class Houses extends React.Component<HousesProps, HousesState>  {
                                         Located in { house.region || '<unknown>' }
                                     </Card.Description>
                                     <Card.Description style={{ marginTop: 20}}>
-                                        <Rating  defaultRating={house.rating} maxRating={5} />
+                                        <Rating  defaultRating={house.rating} maxRating={5}  disabled />
                                     </Card.Description>
                                 </Card.Content>
                                 <Card.Content extra>
@@ -254,7 +254,7 @@ export class Houses extends React.Component<HousesProps, HousesState>  {
                 </Modal.Description>
             </Modal.Content>
             <Modal.Actions>
-                <Rating size="large" defaultRating={house.rating} maxRating={5} className="ratingClass" />
+                <Rating size="large" defaultRating={house.rating} maxRating={5} className="ratingClass"  disabled/>
                 <Button color='black' onClick={() =>  this.setState({ modalOpen:  false})}>
                 Go Back
                 </Button>

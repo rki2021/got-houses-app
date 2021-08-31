@@ -51,7 +51,7 @@ export default class Quotes extends React.PureComponent {
                                 </Card.Description>
                             </Card.Content>
                             <Card.Content extra className="ratingHome">
-                                <Rating size="large" defaultRating={5} maxRating={5} className="ratingClass" />
+                                <Rating size="large" defaultRating={5} maxRating={5} className="ratingClass"  disabled />
                             </Card.Content>
                         </Card>
 
@@ -71,7 +71,7 @@ export default class Quotes extends React.PureComponent {
                                 </Card.Description>
                             </Card.Content>
                             <Card.Content extra className="ratingHome">
-                                <Rating size="large" defaultRating={3} maxRating={5} className="ratingClass" />
+                                <Rating size="large" defaultRating={3} maxRating={5} className="ratingClass"  disabled />
                             </Card.Content>
                         </Card>
 
@@ -90,7 +90,7 @@ export default class Quotes extends React.PureComponent {
                                 </Card.Description>
                             </Card.Content>
                             <Card.Content extra className="ratingHome">
-                                <Rating size="large" defaultRating={3} maxRating={5} className="ratingClass" />
+                                <Rating size="large" defaultRating={3} maxRating={5} className="ratingClass"  disabled/>
                             </Card.Content>
                         </Card>
 
@@ -109,7 +109,7 @@ export default class Quotes extends React.PureComponent {
                                 </Card.Description>
                             </Card.Content>
                             <Card.Content extra className="ratingHome">
-                                <Rating size="large" defaultRating={5} maxRating={5} className="ratingClass" />
+                                <Rating size="large" defaultRating={5} maxRating={5} className="ratingClass" disabled />
                             </Card.Content>
                         </Card>
 
